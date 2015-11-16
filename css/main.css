@@ -1,0 +1,62 @@
+
+@import 'normalize.css';
+body,div,header,section,article,nav, ul ol, aside,li, h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.headerBackground {
+    width: 100%;
+    text-align: center;
+    
+      
+    
+}
+.headerLogo{
+   position:absolute;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   width: 20%;    
+       
+}
+.header-main {
+    
+    position:absolute;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+    color: white;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 7em;
+    padding-top: 3em;
+    
+}
+.header-submain {
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    padding-top: 10em;
+    
+
+}
+.header-btn-nav {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-top: 25em;
+    background-color: red;
+    color: white;
+    
+    
+}
