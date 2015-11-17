@@ -28,14 +28,14 @@ body {
 .header-main {
     
     position:absolute;
-   margin: 0 auto;
-   left: 0;
-   right: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     color: white;
     
     font-family: 'Oswald', sans-serif;
     font-size: 7em;
-    padding-top: 3em;
+    padding: 3em 0 0 1em;
     
 }
 .header-submain {
@@ -44,7 +44,7 @@ body {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    padding-top: 10em;
+    padding: 10em 0 0 5em;
     
 
 }
@@ -54,9 +54,34 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
     padding: 1em;
-    margin-top: 25em;
+    margin: 24em 0 0 30em;
     background-color: red;
     color: white;
     
+    
+}
+.FirstSection {
+    display: flex;
+    
+}
+.SectionReloj {
+    display: inline-flex;
+    padding: 2em 2em 2em 5em;
+    
+
+}
+.SectionExplain {
+    display: inline-flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+    width: 18em;
+    color: gray;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
